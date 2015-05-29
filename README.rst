@@ -1,1 +1,1 @@
-Biblioteca de Python para generar logos aleatoreos
+Biblioteca de Python para generar logos aleatorios
