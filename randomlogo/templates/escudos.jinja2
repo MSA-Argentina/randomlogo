@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="400" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    {% for rect in rects %}
+        <rect x="{{rect.1}}" y="{{rect.2}}" width="{{rect.3}}" height="{{rect.4}}" stroke="black" fill="{{rect.0}}" stroke-width="{{rect.5}}"/>
+    {% endfor %}
+    {% for circ in circles %}
+        <circle cx="{{circ.1}}" cy="{{circ.2}}" r="{{circ.3}}" stroke="black" fill="{{circ.0}}" stroke-width="{{circ.4}}"/>
+    {% endfor %}
+</svg>
